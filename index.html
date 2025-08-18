@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huddle Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #8e2de2, #4a00e0);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Header */
+    header {
+      padding: 20px 50px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      width: 140px;
+    }
+
+    /* Main Section */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .image img {
+      max-width: 100%;
+    }
+
+    .text {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      max-width: 450px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: white;
+      color: #4a00e0;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .text h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Skate Show</div>
+  </header>
+
+  <!-- Main Content -->
+  <section class="container">
+    <div class="image">
+  <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148855277.jpg" alt="Community Growth">
+</div>
+     <div class="text">
+      <h1>Show Your Moves, Own The Streets</h1>
+      <p>
+        Skate Show brings together skaters from around the world. Share your tricks, compete, and connect with a community that lives and breathes skateboarding.
+      </p>
+      <a href="#" class="btn">Join Now</a>
+    </div>
+  </section>
+</html>
